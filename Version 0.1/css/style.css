@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+html,body {
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+
+body{
+	background-image: url('../images/background.jpg');
+	background-size:cover;
+	background-position:center;
+}
+
+.col-md-8.col-lg-9 {
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+#accordionExample{
+	max-width:280px;
+	padding-top:30px;
+	padding-right:0px;
+	text-align:left;
+}
+
+.link1 .link2 {
+	text-align:center;
+}
+
+.btn-primary :hover {
+    color: #fff;
+    background-color: #8197af;
+    border-color: #8197af;
+}
+.btn-primary{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
